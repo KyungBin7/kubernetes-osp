@@ -1,6 +1,4 @@
 #!/bin/bash
-
-cat <<EOF> calico-quay-crd.yaml
 ---
 apiVersion: operator.tigera.io/v1
 kind: Installation
