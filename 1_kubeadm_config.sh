@@ -52,8 +52,8 @@ modprobe br_netfilter
 modprobe overlay
 
 cat <<EOF>> /etc/hosts
-192.168.10.10 node-1.novalocal
-192.168.10.20 node-2.novalocal
-192.168.10.30 node-3.novalocal
-192.168.10.100 node-4.novalocal
+192.168.10.10 node1.example.com node1
+192.168.10.20 node2.example.com node2
+192.168.10.30 node3.example.com node3
+192.168.10.100 storage.example.com storage
 EOF
